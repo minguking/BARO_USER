@@ -58,7 +58,7 @@ class MenuDetailHeaderView: UIView {
     
     private let minusButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setImage(UIImage(systemName: "minus.circle"), for: .normal)
+        button.setImage(UIImage(named: "minus"), for: .normal)
         button.addTarget(self, action: #selector(minusTapped), for: .touchUpInside)
         button.tintColor = .gray
         return button
@@ -66,7 +66,7 @@ class MenuDetailHeaderView: UIView {
     
     private let plusButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setImage(UIImage(systemName: "plus.circle"), for: .normal)
+        button.setImage(UIImage(named: "plus"), for: .normal)
         button.addTarget(self, action: #selector(plusTapped), for: .touchUpInside)
         button.tintColor = .gray
         return button

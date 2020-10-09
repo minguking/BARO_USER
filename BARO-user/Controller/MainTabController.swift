@@ -25,29 +25,26 @@ class MainTabController: UITabBarController {
     
     func configureViewControllers() {
         
+        tabBar.tintColor = .purple
+        
         let home = HomeViewController()
-        let nav1 = templateNavController(home, image: UIImage(named: "홈 off"))
-        nav1.tabBarItem.image = UIImage(systemName: "house")
+        let nav1 = templateNavController(home, image: UIImage(named: "home_tabBar"))
         nav1.tabBarItem.title = "홈"
         
         let Bookmark = BookmarkViewController()
-        let nav2 = templateNavController(Bookmark, image: UIImage(named: "찜 off"))
-        nav2.tabBarItem.image = UIImage(systemName: "heart")
+        let nav2 = templateNavController(Bookmark, image: UIImage(named: "heart_tabBar"))
         nav2.tabBarItem.title = "찜한 가게"
         
         let status = OrderStatusViewController()
-        let nav3 = templateNavController(status, image: UIImage(named: "주문현황 off"))
-        nav3.tabBarItem.image = UIImage(systemName: "clock")
+        let nav3 = templateNavController(status, image: UIImage(named: "clock_tabBar"))
         nav3.tabBarItem.title = "주문 현황"
         
         let history = OrderHistoryViewController()
-        let nav4 = templateNavController(history, image: UIImage(named: "주문내역 off"))
-        nav4.tabBarItem.image = UIImage(systemName: "doc.plaintext")
+        let nav4 = templateNavController(history, image: UIImage(named: "doc_tabBar"))
         nav4.tabBarItem.title = "주문 내역"
         
         let myPage = MyPageViewController()
-        let nav5 = templateNavController(myPage, image: UIImage(named: "마이페이지 off"))
-        nav5.tabBarItem.image = UIImage(systemName: "person")
+        let nav5 = templateNavController(myPage, image: UIImage(named: "myPage_tabBar"))
         nav5.tabBarItem.title = "마이페이지"
         
         viewControllers = [nav1, nav2, nav3, nav4, nav5]

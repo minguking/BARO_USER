@@ -31,6 +31,14 @@
 		3D4A00CF251B24B100706F08 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00CE251B24B100706F08 /* StoreModel.swift */; };
 		3D4A00D2251B305B00706F08 /* HomeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00D1251B305B00706F08 /* HomeHeaderCell.swift */; };
 		3D4A00D5251B437900706F08 /* HomeCustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00D4251B437800706F08 /* HomeCustomNavigationView.swift */; };
+		3D8B131125302E7A0022AE88 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B131025302E7A0022AE88 /* NotoSansKR-Bold.otf */; };
+		3D8B13152530300C0022AE88 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B13142530300C0022AE88 /* NotoSansKR-Regular.otf */; };
+		3D8B1318253030720022AE88 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B1317253030720022AE88 /* NotoSansKR-Black.otf */; };
+		3D8B131C253031820022AE88 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B131A253031810022AE88 /* Metropolis-Regular.otf */; };
+		3D8B131D253031820022AE88 /* Metropolis-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B131B253031810022AE88 /* Metropolis-ExtraLight.otf */; };
+		3D8B1320253032430022AE88 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B131F253032430022AE88 /* NotoSansKR-Medium.otf */; };
+		3D8B1323253032A90022AE88 /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B1322253032A90022AE88 /* NotoSansKR-Light.otf */; };
+		3D8B1326253033310022AE88 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B1325253033310022AE88 /* Metropolis-SemiBold.otf */; };
 		D947E6D51D14BFA2542849C7 /* Pods_BARO_user.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC4B5CC38A62BADA38BCB9B /* Pods_BARO_user.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +71,14 @@
 		3D4A00CE251B24B100706F08 /* StoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
 		3D4A00D1251B305B00706F08 /* HomeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCell.swift; sourceTree = "<group>"; };
 		3D4A00D4251B437800706F08 /* HomeCustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomNavigationView.swift; sourceTree = "<group>"; };
+		3D8B131025302E7A0022AE88 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		3D8B13142530300C0022AE88 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		3D8B1317253030720022AE88 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		3D8B131A253031810022AE88 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		3D8B131B253031810022AE88 /* Metropolis-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLight.otf"; sourceTree = "<group>"; };
+		3D8B131F253032430022AE88 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		3D8B1322253032A90022AE88 /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		3D8B1325253033310022AE88 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
 		98FC6165C29D3BE9587D39B1 /* Pods-BARO-user.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BARO-user.debug.xcconfig"; path = "Target Support Files/Pods-BARO-user/Pods-BARO-user.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,8 +131,9 @@
 				3D4A008C251B069F00706F08 /* ViewModel */,
 				3D4A0089251B068500706F08 /* Controller */,
 				3D4A009E251B117900706F08 /* Utils */,
-				3D4A007D251B052F00706F08 /* Assets.xcassets */,
+				3D8B130F25302E710022AE88 /* Fonts */,
 				3D4A007A251B052B00706F08 /* Main.storyboard */,
+				3D4A007D251B052F00706F08 /* Assets.xcassets */,
 				3D4A007F251B052F00706F08 /* LaunchScreen.storyboard */,
 				3D4A0082251B052F00706F08 /* Info.plist */,
 			);
@@ -175,6 +192,21 @@
 				3D4A009F251B119C00706F08 /* Extension.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		3D8B130F25302E710022AE88 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D8B131025302E7A0022AE88 /* NotoSansKR-Bold.otf */,
+				3D8B13142530300C0022AE88 /* NotoSansKR-Regular.otf */,
+				3D8B1317253030720022AE88 /* NotoSansKR-Black.otf */,
+				3D8B131B253031810022AE88 /* Metropolis-ExtraLight.otf */,
+				3D8B131A253031810022AE88 /* Metropolis-Regular.otf */,
+				3D8B131F253032430022AE88 /* NotoSansKR-Medium.otf */,
+				3D8B1322253032A90022AE88 /* NotoSansKR-Light.otf */,
+				3D8B1325253033310022AE88 /* Metropolis-SemiBold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		60065DC084DFEBAD0E6A2E04 /* Frameworks */ = {
@@ -246,7 +278,15 @@
 			files = (
 				3D4A0081251B052F00706F08 /* LaunchScreen.storyboard in Resources */,
 				3D4A007E251B052F00706F08 /* Assets.xcassets in Resources */,
+				3D8B131125302E7A0022AE88 /* NotoSansKR-Bold.otf in Resources */,
+				3D8B1320253032430022AE88 /* NotoSansKR-Medium.otf in Resources */,
+				3D8B131C253031820022AE88 /* Metropolis-Regular.otf in Resources */,
+				3D8B1326253033310022AE88 /* Metropolis-SemiBold.otf in Resources */,
+				3D8B1318253030720022AE88 /* NotoSansKR-Black.otf in Resources */,
+				3D8B1323253032A90022AE88 /* NotoSansKR-Light.otf in Resources */,
 				3D4A007C251B052B00706F08 /* Main.storyboard in Resources */,
+				3D8B13152530300C0022AE88 /* NotoSansKR-Regular.otf in Resources */,
+				3D8B131D253031820022AE88 /* Metropolis-ExtraLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
