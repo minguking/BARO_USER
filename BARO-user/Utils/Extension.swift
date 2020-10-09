@@ -123,6 +123,49 @@ extension UIView {
     
 }
 
+extension UIFont {
+    
+    static func NotoSansKrBold(size: CGFloat) -> UIFont? {
+        let font = UIFont(name: "NotoSansKR-Bold", size: size)
+        return font
+    }
+    
+    static func NotoSansKrRegular(size: CGFloat) -> UIFont? {
+        let font = UIFont(name: "NotoSansKR-Regular", size: size)
+        return font
+    }
+    
+    static func NotoSansKrBlack(size: CGFloat) -> UIFont? {
+        let font = UIFont(name: "NotoSansKR-Black", size: size)
+        return font
+    }
+    
+    static func NotoSansKrMedium(size: CGFloat) -> UIFont? {
+        let font = UIFont(name: "NotoSansKR-Medium", size: size)
+        return font
+    }
+    
+    static func NotoSansKrLight(size: CGFloat) -> UIFont? {
+        let font = UIFont(name: "NotoSansKR-Light", size: size)
+        return font
+    }
+    
+    static func metropolisExtraLight(size: CGFloat) -> UIFont? {
+        let font = UIFont(name: "Metropolis-ExtraLight", size: size)
+        return font
+    }
+    
+    static func metropolisRegular(size: CGFloat) -> UIFont? {
+        let font = UIFont(name: "Metropolis-Regular", size: size)
+        return font
+    }
+    
+    static func metropolisSemiBold(size: CGFloat) -> UIFont? {
+        let font = UIFont(name: "Metropolis-SemiBold", size: size)
+        return font
+    }
+}
+
 
 
 

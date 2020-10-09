@@ -21,13 +21,12 @@ class HomeCustomNavigationView: UIView {
     
     let underline: UIView = {
         let view = UIView()
-//        view.setDimensions(width: view.frame.width, height: 1)
         view.backgroundColor = .systemGroupedBackground
         return view
     }()
     
     let logo: UIImageView = {
-        let iv = UIImageView(image: UIImage(systemName: "person.3.fill"))
+        let iv = UIImageView(image: UIImage(named: "BARO_logo"))
         iv.clipsToBounds = true
         iv.contentMode = .scaleToFill
         return iv
@@ -36,14 +35,13 @@ class HomeCustomNavigationView: UIView {
     let locationLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .left
-        label.font = .systemFont(ofSize: 16)
+        label.font = UIFont(name: "NotoSansKR-Bold.otf", size: 14)
         return label
     }()
     
     lazy var selectButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setImage(UIImage(systemName: "chevron.down"), for: .normal)
-//        button.setDimensions(width: 16, height: 8)
+        button.setImage(UIImage(named: "arrow_down"), for: .normal)
         button.imageView?.contentMode = .scaleAspectFit
         button.imageView?.clipsToBounds = true
         button.addTarget(self, action: #selector(handleSelectButton), for: .touchUpInside)
@@ -53,7 +51,6 @@ class HomeCustomNavigationView: UIView {
     lazy var searchButton: UIButton = {
         let button = UIButton(type: .system)
         button.setImage(UIImage(named: "search"), for: .normal)
-//        button.setDimensions(width: 20, height: 20)
         button.imageView?.contentMode = .scaleAspectFit
         button.imageView?.clipsToBounds = true
         button.addTarget(self, action: #selector(handleSearchButton), for: .touchUpInside)
@@ -62,8 +59,7 @@ class HomeCustomNavigationView: UIView {
     
     lazy var alertButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setImage(UIImage(named: "alert"), for: .normal)
-//        button.setDimensions(width: 20, height: 20)
+        button.setImage(UIImage(named: "off"), for: .normal)
         button.imageView?.contentMode = .scaleAspectFit
         button.imageView?.clipsToBounds = true
         button.addTarget(self, action: #selector(handleAlertButton), for: .touchUpInside)
@@ -75,6 +71,11 @@ class HomeCustomNavigationView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+//        for family in UIFont.familyNames.sorted() {
+//               let names = UIFont.fontNames(forFamilyName: family)
+//               print("Family: \(family) Font names: \(names)")
+//        }
         
         let stack = UIStackView(arrangedSubviews: [locationLabel, selectButton])
         stack.spacing = 7
